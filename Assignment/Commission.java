@@ -20,11 +20,11 @@ public class Commission {
     }
 
     double calculate() {
-        if (amount >= 100000) {
+        if (amount >= 500000) {
             commission = (10.0 / 100.0) * amount;
-        } else if ((amount >= 50000) && (amount < 100000)) {
+        } else if ((amount >= 4000) && (amount < 500000)) {
             commission = (5.0 / 100.0) * amount;
-        } else if ((amount >= 30000) && (amount < 50000)) {
+        } else if ((amount >= 3000) && (amount < 4000)) {
             commission = (3.0 / 100.0) * amount;
         } else {
             commission = 0;
